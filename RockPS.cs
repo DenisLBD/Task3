@@ -86,6 +86,7 @@ namespace RockPS
         }
     }
 
+    //Create key and HMAC
     class Generator
     {
         byte[] key = new byte[64];
